@@ -1,0 +1,21 @@
+using UnityEngine;
+
+public class MouseMask : MonoBehaviour
+{
+    private Camera mainCam;
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        mainCam = Camera.main;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        Vector3 mouseScreenPosition = Input.mousePosition;
+        Vector3 worldPosition = mainCam.ScreenToWorldPoint(mouseScreenPosition);
+        worldPosition.z = 0f;
+        transform.position = worldPosition;
+    }
+}

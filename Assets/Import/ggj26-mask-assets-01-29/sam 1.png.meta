@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 517f99a902196ccc48a36063062263ff
+guid: a41de4f3c218d2ad980ea053232a080c
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -1059,28 +1059,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: sam_38
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 608
-        height: 72
-      alignment: 9
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6225be17d096af4e8850cbfbb00c813e
-      internalID: -1465763384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -1129,7 +1107,6 @@ TextureImporter:
       sam_35: -8220783209977503684
       sam_36: 3894870975692533882
       sam_37: -3060890489375934249
-      sam_38: -1465763384
       sam_4: -568724858850205694
       sam_5: 8004978069353379489
       sam_6: 1923110908681159031

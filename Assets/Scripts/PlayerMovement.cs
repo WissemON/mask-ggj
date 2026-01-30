@@ -14,14 +14,11 @@ public class PlayerMovement : MonoBehaviour
     
 
     public Rigidbody2D rb;
-    public Animator animatorObscur;
-    public Animator animatorClair;
-    public SpriteRenderer spriteRendererObscur;
-    public SpriteRenderer spriteRendererClair;
+    public Animator animator;
+    public SpriteRenderer spriteRenderer;
 
     private Vector3 velocity = Vector3.zero;
     private float horizontalMovement;
-
 
     void Update()
     {
@@ -36,8 +33,7 @@ public class PlayerMovement : MonoBehaviour
         Flip(rb.linearVelocity.x);
 
         float characterVelocity = Mathf.Abs(rb.linearVelocity.x);
-        animatorObscur.SetFloat("Speed", characterVelocity);
-        animatorClair.SetFloat("Speed", characterVelocity);
+        animator.SetFloat("Speed", characterVelocity);
     }
 
     void FixedUpdate()
@@ -63,13 +59,11 @@ public class PlayerMovement : MonoBehaviour
     {
         if (_velocity > 0.1f)
         {
-            spriteRendererObscur.flipX = false;
-            spriteRendererClair.flipX = false;
+            spriteRenderer.flipX = false;
         }
         else if (_velocity < -0.1f)
         {
-            spriteRendererObscur.flipX = true;
-            spriteRendererClair.flipX = true;
+            spriteRenderer.flipX = true;
         }
     }
 

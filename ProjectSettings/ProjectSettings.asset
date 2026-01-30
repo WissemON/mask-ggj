@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 4e27127a9df1d5517b1c9ac587e8027e
+  productGUID: 6f98a84a1203e964e99dc634967f176c
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: mask-ggj
+  productName: My project
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -515,7 +515,7 @@ PlayerSettings:
   ps4GarlicHeapSize: 2048
   ps4ProGarlicHeapSize: 2560
   playerPrefsMaxSize: 32768
-  ps4Passcode: Wkk1fyto2IMmxlhMa6kssVOz3vTBO65s
+  ps4Passcode: h3XwMEMHfh7n7p2J2p2kWt1XKBgp3nci
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -604,14 +604,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: mask-ggj
+  metroPackageName: My project
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: mask-ggj
+  metroApplicationDescription: My project
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -680,13 +680,13 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 1
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: c1fae88c-fd8e-4511-abe9-e41e26a996b4
+  cloudProjectId: 34b82392-ffda-42c0-b09b-341a9ed36ccf
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: mask-ggj 2026-01-29_06-23-30
-  organizationId: linky13003
+  projectName: My project 2026-01-30_10-58-49
+  organizationId: hrbdn1377
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

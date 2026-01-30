@@ -8,4 +8,8 @@ AnimatorOverrideController:
   m_PrefabAsset: {fileID: 0}
   m_Name: PlayerSam_ClairOverride
   m_Controller: {fileID: 9100000, guid: e560cc677ed9903319642fc3bb0508ec, type: 2}
-  m_Clips: []
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: f577a32598a004ad580ce40e5b386403, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 078db2ee80d775b9a955981ffd26f10e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 369e0722b6ea91a1480e7215d1e1fcc9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 89df6c1ea130e7a67a261f216ad5a4a1, type: 2}
